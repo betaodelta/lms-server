@@ -16,6 +16,7 @@ import purchaseRoute from "./routes/purchaseCourse.route.js";
 import courseProgressRoute from "./routes/courseProgress.route.js";
 import razorpayRoute from "./routes/razorpay.routes.js";
 import healthRoute from "./routes/health.routes.js";
+import contactRoutes from "./routes/contact.route.js";
 
 // Load environment variables
 dotenv.config();
@@ -76,6 +77,7 @@ app.use("/api/v1/purchase", purchaseRoute);
 app.use("/api/v1/progress", courseProgressRoute);
 app.use("/api/v1/razorpay", razorpayRoute);
 app.use("/health", healthRoute);
+app.use("/api/v1/contact", contactRoutes);
 
 // 404 Handler
 app.use((req, res) => {
