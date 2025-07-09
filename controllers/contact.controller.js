@@ -1,4 +1,4 @@
-import { Contact } from "../models/contact.model";
+import { Contact } from "../models/contact.model.js";
 import { catchAsync } from "../utils/catchAsync.js";
 import { AppError } from "../middleware/error.middleware.js";
 
