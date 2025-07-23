@@ -16,6 +16,7 @@ This is the backend service for a Learning Management System (LMS) built using N
 - Course Ratings
 - Secure APIs
 - MongoDB/Mongoose integration
+- Payment handling (RazorPay)
 
 ---
 
@@ -24,6 +25,6 @@ This is the backend service for a Learning Management System (LMS) built using N
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (via Mongoose)
 - **Authentication:** JWT (JSON Web Tokens)
-- **Others:** dotenv, bcrypt, multer (for file upload), morgan, cloudinary
+- **Others:** dotenv, bcrypt, multer (for file upload), morgan, cloudinary, razorpay
 
 ---
